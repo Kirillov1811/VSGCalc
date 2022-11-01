@@ -1,0 +1,288 @@
+{
+  "department": [
+    {
+      "id": "1",
+      "nameDepartment": "Video Department"
+    },
+    {
+      "id": "2",
+      "nameDepartment": "Sound Department"
+    },
+    {
+      "id": "3",
+      "nameDepartment": "Light Department"
+    }
+  ],
+  "manager": [
+    {
+      "id": "1",
+      "nameManager": "Maksim Korovkin",
+      "phoneManager": "89033000412"
+    },
+    {
+      "id": "2",
+      "nameManager": "Alexandr Pugovkin",
+      "phoneManager": "89033000415"
+    },
+    {
+      "id": "3",
+      "nameManager": "Stas Prodast",
+      "phoneManager": "89033000666"
+    }
+  ],
+  "employee": [
+    {
+      "id": "1",
+      "idDepartment": "2",
+      "nameEmployee": "Evgeniy",
+      "lastNameEmployee": "Kirillov",
+      "phoneEmployee": "8903456789"
+    },
+    {
+      "id": "2",
+      "idDepartment": "1",
+      "nameEmployee": "Dmitriy",
+      "lastNameEmployee": "Artomonov",
+      "phoneEmployee": "8903456789"
+    },
+    {
+      "id": "3",
+      "idDepartment": "3",
+      "nameEmployee": "Andrey",
+      "lastNameEmployee": "Kuznechik",
+      "phoneEmployee": "8903456123"
+    },
+    {
+      "id": "4",
+      "idDepartment": "2",
+      "nameEmployee": "Petr",
+      "lastNameEmployee": "Pirojok",
+      "phoneEmployee": "8902345687"
+    },
+    {
+      "id": "5",
+      "idDepartment": "1",
+      "nameEmployee": "Pavel",
+      "lastNameEmployee": "Directorov",
+      "phoneEmployee": "89021112345"
+    },
+    {
+      "id": "6",
+      "idDepartment": "3",
+      "nameEmployee": "Renat",
+      "lastNameEmployee": "Litvinov",
+      "phoneEmployee": "8904567892"
+    }
+  ],
+  "costs": [
+    {
+      "idCosts": "1",
+      "nameTypeWork": "Mounting",
+      "costTypeWork": "3000",
+      "nameExpenses": "Food",
+      "costExpenses": "1000"
+    },
+    {
+      "idCosts": "2",
+      "nameTypeWork": "Dismantling",
+      "costTypeWork": "3000",
+      "nameExpenses": "Taxi",
+      "costExpenses": "1500"
+    },
+    {
+      "idCosts": "3",
+      "nameTypeWork": "Duty",
+      "costTypeWork": "5000",
+      "nameExpenses": "Food",
+      "costExpenses": "800"
+    },
+    {
+      "idCosts": "4",
+      "nameTypeWork": "Backliner",
+      "costTypeWork": "5000",
+      "nameExpenses": "Taxi",
+      "costExpenses": "400"
+    }
+  ],
+  "event": [
+    {
+      "idEvent": "1",
+      "idManager": "1",
+      "nameEvent": "Turandot Wedding",
+      "dateEvent": "20.06.23",
+      "adressEvent": "Tupoleva 17",
+      "timeCheckIn": "8:00",
+      "timeSoundCheck": "13:00",
+      "timeStartEvent": "17:00",
+      "timeDismantling": "00:00"
+    },
+    {
+      "idEvent": "2",
+      "idManager": "1",
+      "nameEvent": "Bekaratt Wedding",
+      "dateEvent": "23.06.23",
+      "adressEvent": "Nikolskaya 23",
+      "timeCheckIn": "5:00",
+      "timeSoundCheck": "11:00",
+      "timeStartEvent": "17:00",
+      "timeDismantling": "00:00"
+    },
+    {
+      "idEvent": "3",
+      "idManager": "2",
+      "nameEvent": "Dima Bilan",
+      "dateEvent": "25.06.23",
+      "adressEvent": "Red Square",
+      "timeCheckIn": "7:00",
+      "timeSoundCheck": "11:00",
+      "timeStartEvent": "15:00",
+      "timeDismantling": "22:00"
+    },
+    {
+      "idEvent": "4",
+      "idManager": "3",
+      "nameEvent": "3 Topora",
+      "dateEvent": "22.06.23",
+      "adressEvent": "70 let Oktyabrya",
+      "timeCheckIn": "15:00",
+      "timeSoundCheck": "17:00",
+      "timeStartEvent": "18:00",
+      "timeDismantling": "22:00"
+    },
+    {
+      "idEvent": "5",
+      "idManager": "3",
+      "nameEvent": "NC Zvezda",
+      "dateEvent": "24.07.21",
+      "adressEvent": "Novo-sadovaya",
+      "timeCheckIn": "15:00",
+      "timeSoundCheck": "17:00",
+      "timeStartEvent": "23:00",
+      "timeDismantling": "05:00"
+    },
+    {
+      "idEvent": "6",
+      "idManager": "4",
+      "nameEvent": "JustBand",
+      "dateEvent": "20.08.23",
+      "adressEvent": "John Silver",
+      "timeCheckIn": "15:00",
+      "timeSoundCheck": "18:00",
+      "timeStartEvent": "22:00",
+      "timeDismantling": "01:00"
+    },
+    {
+      "idEvent": "7",
+      "idManager": "3",
+      "nameEvent": "Apple Conf",
+      "dateEvent": "07.09.22",
+      "adressEvent": "Rubcovskaya 2k2",
+      "timeCheckIn": "20:00",
+      "timeSoundCheck": "20:55",
+      "timeStartEvent": "21:00",
+      "timeDismantling": "22:00"
+    }
+  ],
+  "report": [
+    {
+      "idEvent": "1",
+      "idEmployee": "1",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "1",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "1",
+      "idCosts": "3"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "2",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "2",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "3",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "3",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "1",
+      "idEmployee": "4",
+      "idCosts": "4"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "1",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "1",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "2",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "2",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "3",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "3",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "2",
+      "idEmployee": "3",
+      "idCosts": "4"
+    },
+    {
+      "idEvent": "3",
+      "idEmployee": "1",
+      "idCosts": "3"
+    },
+    {
+      "idEvent": "3",
+      "idEmployee": "2",
+      "idCosts": "1"
+    },
+    {
+      "idEvent": "3",
+      "idEmployee": "2",
+      "idCosts": "2"
+    },
+    {
+      "idEvent": "3",
+      "idEmployee": "2",
+      "idCosts": "4"
+    },
+    {
+      "idEvent": "4",
+      "idEmployee": "4",
+      "idCosts": "3"
+    }
+  ]
+}
